@@ -12,3 +12,8 @@ def Webpage_inserction(request):
     WO=Webpage.objects.all()
     d={'Webpage':WO}
     return render(request,'web.html',d)
+
+def AccessRecord_inserction(request):
+    ARO=AccessRecord.objects.all()
+    d={'Access':ARO}
+    return render(request,'access.html',d)

@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('topic_name/',topic_name,name='topic_name'),
     path('Webpage_inserction/',Webpage_inserction,name='Webpage_inserction'),
+    path('AccessRecord_inserction/',AccessRecord_inserction,name='AccessRecord_inserction',)
 ]
